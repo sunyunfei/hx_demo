@@ -9,4 +9,4 @@
 
 ## 提示
 因为我们需要自定义导航栏的需求，所以自己先随便写了一个。还有就是客服中提示商品的信息之类的都被我去掉了，因为我们是用不到。有需要的直接官方的相关代码拿出来就好了，至于pod的第三方我是直接把项目中需要的都导入了。其他需要注意的没啥了
-![Demo地址](https://github.com/sunyunfei/hx_demo.git)
+[Demo地址](https://github.com/sunyunfei/hx_demo.git)
