@@ -27,8 +27,9 @@ static EMIMHelper *helper = nil;
     self = [super init];
     if (self) {
         //固定的
-        _appkey = @"1314520ff#kefu";
-        _cname = @"zhangs";
+#error 客服的登录
+        _appkey = @"xxxxx";
+        _cname = @"xxxxxxx";
 //        _nickname = [userDefaults objectForKey:kCustomerNickname];
 //        if ([_nickname length] == 0) {
 //            _nickname = @"";
@@ -71,6 +72,7 @@ static EMIMHelper *helper = nil;
     EaseMob *easemob = [EaseMob sharedInstance];
     if (![easemob.chatManager isLoggedIn] || ([_username length] == 0 || [_password length] == 0)) {
         if ([_username length] == 0 || [_password length] == 0) {
+#error 用户的登录账号密码
             //自己的账号密码
             _username = @"12532136217362";
             _password = @"123456";

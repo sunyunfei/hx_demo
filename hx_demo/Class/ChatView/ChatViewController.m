@@ -1196,6 +1196,7 @@
     [self addMessage:tempMessage];
 }
 
+#error 用户个人信息的填写（后台人员显示看）
 //信息的填写
 - (NSDictionary*)getUserInfoAttribute
 {
